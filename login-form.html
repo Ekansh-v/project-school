@@ -1,0 +1,52 @@
+<html>
+<head>
+<title> log in </title>
+<link rel="stylesheet" type="text/css" href="login-form.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+   
+<body>
+
+<script type="text/javascript">
+$(document).ready(function()
+{
+ $("#show_login").click(function(){
+  showpopup();
+ });
+ $("#close_login").click(function(){
+  hidepopup();
+ });
+});
+
+function showpopup()
+{
+ $("#loginform").fadeIn();
+ $("#loginform").css({"visibility":"visible","display":"block"});
+}
+
+function hidepopup()
+{
+ $("#loginform").fadeOut();
+ $("#loginform").css({"visibility":"hidden","display":"none"});
+}
+    </script>
+
+
+<center>
+
+ <div id = "loginform">
+  <form method = "post" action = ""> 
+   <p> LOG IN FORM </p>
+   <input type = "username" id = "login" placeholder = "USERNAME" name = "username">
+   <input type = "password" id = "password" name = "password" placeholder = "PASSWORD">
+   <input type = "submit" id = "dologin" value = "Login">
+  </form>
+ </div>
+</center>
+
+</body>
+</html>    

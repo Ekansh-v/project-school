@@ -1,0 +1,511 @@
+.background {
+    
+    background-image: url("../project8/images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 80%;
+    
+  height: 800px;
+    margin: 0px;
+   width: 100%;
+}
+
+.property {
+    
+      transition: all .5s;
+}
+
+.property:hover {
+    
+     transform: scale(1.1);
+   background-color: #edbf48!important;
+}
+
+
+
+.background1 {
+    
+    background-image: url("../project8/images/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 80%;
+    background-attachment: fixed;
+  height: 200px;
+    margin: 0px;
+   width: 100%;
+   
+
+}
+
+
+.change {
+  
+     transition: all .5s;
+    
+}
+
+.change:hover {
+    
+     transform: scale(1.1);
+    
+}
+
+
+.ourevents__imgbox1 {
+    
+        margin: 30px;
+    padding: 0px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    color: white;
+    line-height: 17px;
+}
+
+
+.background1__button_row btn  {
+    
+      position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+    width: 500px;
+}
+
+
+.background2 {
+    
+    background-image: url("../project8/images/teachers.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 80%;
+    background-attachment: fixed;
+  height: auto;
+    margin: 0px;
+   width: 100%;
+   filter: contrast(.7);    
+}
+
+
+.background3 {
+    
+    background-image: url("../project8/images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 80%;
+    background-attachment: fixed;
+  height: auto;
+    margin: 0px;
+   width: 100%;
+    filter: contrast(.7);
+}
+
+.btn {
+    
+     transition: all .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    
+}
+
+
+.background4 {
+    
+    background:  -webkit-gradient(linear, left top, right top, color-stop(0%,#74cee4), color-stop(16%,#66ce9c), color-stop(32%,#edbf47), color-stop(49%,#ec774b), color-stop(65%,#74cee4), color-stop(83%,#66ce9c), color-stop(100%,#edbf47));
+    
+    height: 3px;
+    width: 100%;
+}
+
+
+.tags li {
+    
+    text-decoration: none;
+    background-color: #404547;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 5px 2px;
+     margin-bottom: 10px!important;
+    font-size: 14px;
+    color: #fff;
+    box-shadow: 0px 4px 0px 0px #353b3d;
+    border-radius: 5px/5px;
+    cursor: pointer;
+}
+
+.footer__school_gallery ul{list-style: none;}
+                                 .footer__school_gallery ul li{width: 33%;float: left; padding: 5px;}
+                                 .footer__school_gallery ul li img{width: 100%;min-height: 70px;max-height: 50px; border-radius: 5px/5px;}
+                                 .footer__school_gallery ul li img:hover{filter: contrast(.8); }
+
+
+.popup  {
+    
+    transition: all .5s;
+    
+}
+
+.popup i:hover {
+    
+    transform: scale(1.2);
+    
+}
+}
+
+.rotate i:hover{
+    
+    transition: all 0.5s ease;
+    
+}
+
+.background5 {
+    
+    background:  -webkit-gradient(linear, left top, right top, color-stop(0%,#74cee4), color-stop(16%,#66ce9c), color-stop(32%,#edbf47), color-stop(49%,#ec774b), color-stop(65%,#74cee4), color-stop(83%,#66ce9c), color-stop(100%,#edbf47));
+    
+    height: 3px;
+    width: 100%;
+}
+
+#backgroundnew {
+    
+    position:absolute;
+    z-index:0;
+    background:white;
+    display:block;
+    min-height:50%; 
+    min-width:50%;
+    color:yellow;
+}
+
+.water {
+    
+    position: absolute;
+    z-index: 1;
+}
+
+
+ul {
+    
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    text-decoration: none;
+    float: left;
+    height: 40px;
+   
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    margin: 0px 2px;
+
+}
+nav ul .yellow ul{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #edbf48!important;
+    color: #fff;
+    z-index: 99999;
+ 
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #e0b84f;
+}
+
+
+
+
+nav ul .red ul{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #ec784b!important;
+    color: #fff;
+    z-index: 99999;
+
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #df774f;
+}
+
+
+nav ul .crimson ul{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #e16d6d!important;
+    color: #fff;
+    z-index: 99999;
+
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #df774f;
+}
+
+
+nav ul .green ul{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #70c191!important;
+    color: #fff;
+    z-index: 99999;
+
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #70c191;
+}
+
+
+nav ul .purple ul{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #c388cd!important;
+    color: #fff;
+    z-index: 99999;
+
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #c388cd;
+}
+
+
+nav ul .yellow ul{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #edbf48!important;
+    color: #fff;
+    z-index: 99999;
+
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #e0b84f;
+}
+
+
+
+nav ul li ul li{
+    float: none;
+    background: transparent!important;
+    color: #fff;
+    z-index: 99999;
+  
+    padding: 0px;
+}
+nav ul li ul li a{
+    height: 40px;
+    display: block;
+    margin: px;
+    
+}
+nav ul .yellow ul li a:hover{
+    background: #e0b84f;
+}
+
+
+nav ul .red ul li a:hover{
+    background: #df774f;
+}
+
+nav ul .crimson ul li a:hover{
+
+  background: #c86a6a;
+}
+
+nav ul .green ul li a:hover{
+
+  background: #6bb78a;
+}
+
+nav ul .purple ul li a:hover{
+
+  background: #ac7ab4;
+}
+
+nav ul .yellow ul li a:hover{
+    background: #e0b84f;
+}
+
+ul li a {
+    
+    text-decoration: none;
+    color: white;
+   
+    
+}
+
+
+
+ul li ul li {
+    
+    display: none;
+}
+
+ul li:hover ul li {
+    
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav ul .skyblue ul .shop ol{
+    
+    position: absolute;
+    
+    top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #74cde3!important;
+    color: #fff;
+    z-index: 99999;
+ 
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #6fc3d9;
+}
+
+
+
+nav ul .skyblue ul li a:hover{
+    background: #70c4d9;
+}
+
+
+.skyblue ul .dedicated ol {
+    
+    position: absolute;
+     top: 40px;
+    width: 200px;
+    right: 0;
+    background: #74cde3!important;
+    left: 210px;
+    
+}
+
+
+ .skyblue ul .shop .dedicated{
+    
+    height: 100px;
+    width: 80px;
+    background-color: #70c4d9;
+     float: left;
+}
+
+
+nav ul .components ol{
+    position: absolute;
+        top: 40px;
+    left: 0;
+    width: 200px;
+    right: 0;
+    background: #c388cd!important;
+    color: #fff;
+    z-index: 99999;
+
+    border-radius: 5px/5px;
+    box-shadow: 0px 3px 0px 0px #c388cd;
+}
+
+.background1 .blue {
+    
+    background: rgba(116,206,228,0.8);
+    
+}
+
+
+
+
+
+
+
+#loginform
+{
+ width:500px;
+ height:330px;
+ margin-top:100px;
+ background-color:#585858;
+ border-radius:3px;
+ box-shadow:0px 0px 10px 0px #424242;
+ padding:10px;
+ box-sizing:border-box;
+ font-family:helvetica;
+
+}
+#loginform #close_login
+{
+ position:absolute;
+ top:140px;
+ left:735px;
+ width:15px;
+ height:15px;
+}
+#loginform p
+{
+ margin-top:40px;
+ font-size:22px;
+ color:#E6E6E6;
+}
+#loginform #login
+{
+ width:250px;
+ height:40px;
+ border:2px solid silver;
+ border-radius:3px;
+ padding:5px;
+}
+#loginform #password
+{
+ margin-top:5px;
+ width:250px;
+ height:40px;
+ border:2px solid silver;
+ border-radius:3px;
+ padding:5px;
+}
+#loginform #dologin
+{
+ margin-left:-5px;
+ margin-top:10px;
+ width:250px;
+ height:40px;
+ border:none;
+ border-radius:3px;
+ color:#E6E6E6;
+ background-color:grey;
+ font-size:20px;
+}
